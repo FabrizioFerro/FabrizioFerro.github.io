@@ -1,0 +1,471 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Dimension by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  		</script>
+	</head>
+	<body class="is-preload">
+
+		<!--============= Wrapper =============-->
+			<div id="wrapper">
+
+				<!--============= Header =============-->
+					<header id="header">
+						<div class="logo">
+							<img src="images/stingray.jpg" alt="Profile Picture">
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>Fabrizio Melges Ferro</h1>
+								<h2>Physics with Love</h2>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#about">about</a></li>
+								<li><a href="#experiments">Experiments</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!--============= Main =============-->
+					<div id="main">
+
+						<!--============= About =============-->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/shark.jpg" alt="" /></span>
+								<p>Hello! My name is Fabrizio. I am a nice shark, not a mindless eating machine.
+									Fish are friends, not food!
+									 By the way, check out my <a href="#experiments">awesome work</a>.</p>
+									
+								<h2 class="major">Surf</h2>
+								<span class="image main"><img src="images/turtle.jpg" alt="" /></span>
+
+							</article>
+
+						<!--============= Experiments =============-->
+							<article id="experiments">
+								<!--::::::: Drop :::::::-->
+								<h2 class="major">Drop Pinch-off Dynamics</h2>
+								<span class="image main"><img src="images/drop.GIF" alt="" /></span>
+								<p>If you are ever out in the rain you may notice that water has this tendency of forming drops.
+									The water from the rain itself comes in drops, and so does the water that falls from the leaves
+									of a tree or the water that drips from the rooftop. This type of behavior, as a matter of fact,
+									is not limited to water and occurs with all kinds of fluids. But why? Why does a falling stream
+									of liquid break up into droplets and what does it look like?</p>
+								
+								<p>
+									The video above is an example of a pinch-off process for pure water falling through a circular nozzle.
+									 I recorded this event with a high speed camera at 5899.71 fps, so everything in the video above took 
+									 place within 50 ms. My first time seeing this I was completely delighted. It is incredible that a phenomenon
+									 like this takes place around us all the time in our day to day life without being noticed. But what is the 
+									 physics behind all that? Well, we have gravity trying to accelerate the fluid down, surface tension doing its 
+									 best to keep the fluid together and minimize its surface area, and viscosity resisting any deformation to the fluid. 
+									 And it is this tendency of surface tension to minimize the surface area of the fluid while conserving its 
+									 volume that eventually leads to the pinch-off.
+								</p>
+
+								<span class="image main">
+                                    <img src="images/drop_fit1.png">
+                                </span>
+
+								<p>
+									In order to investigate the evolution of the drop with time, I used ImageJ to measure the minimum neck radius of 
+									the drop at different times from pinch-off. The result is shown in the log-log plot above. As it turns out, 
+									the minimum neck radius of the drop follows a power law with time. The fit is not perfect though, and that 
+									is because there is one power law in the earlier stage of the drop formation when surface tension dominates, 
+									and another power law in the later stages when viscosity dominates and the drop is about to pinch-off.
+								</p>
+
+								<span class="image main"><img src="images/drop_rep.png" alt="" /></span>
+
+								<p>
+									What is most remarkable about the drop pinch-off dynamics is how repeatable it is. I compared the whole process 
+									frame-by-frame for six different drops and they look indistinguishable. The picture above shows one of my 
+									favorite patterns for six different drops of pure water. All of them were taken exactly 36 frames, or 6.1 ms, 
+									from the pinch-off.
+								</p>
+								<p>
+									<i>
+										This experiment was conducted by me as part of a year-long Experimental Physics course offered by The University of Chicago. 
+										All equipment used for this experiment belongs to the Physics Department.
+									</i>
+								</p>
+
+								<!--::::::: Neutron :::::::-->
+								<h2 class="major">Mass of the Neutron</h2>
+								<p>
+									The mass of charged fundamental particles, such as protons and electrons, can be measured by sending them 
+									through a magnetic field and determining the radius of curvature of their path (this technique is known as 
+									mass spectrometry). But what if you want to measure the mass of the neutron? They are neutral particles 
+									and so they don't experience a Lorentz force. If you were to send neutrons through a magnetic field their 
+									paths wouldn't be affected at all, so mass spectrometry doesn't work for them.
+									What do we do when things don't go our way? We smash them! In this case we smash neutrons and protons to 
+									produce deuteron: 
+									
+									\[ \text{n} + \text{p} \rightarrow \text{d} + \gamma \] 
+									
+									Deuteron is a bound nucleus with one proton, one neutron, and a net charge of +1. Its mass can therefore 
+									be obtained through mass spectrometry. The idea of this experiment is then to measure the energy of the 
+									photon in the reaction above to obtain the mass of the neutron by conservation of energy. Our detection 
+									system consisted of a single NaI+PMT connected to a pulse-height analyzer, and our source of neutrons 
+									was a neutron howitzer.
+								</p>
+								<span class="image main"><img src="images/unshielded.png" alt="" /></span>
+								<p>
+									By intelligently choosing what materials to shield the detector with, we were able to isolate the capture 
+									gamma peak, which we measured to be centered at \( E_\gamma = (2.11\pm 0.06)\ \text{MeV} \). From this 
+									result, we can use conservation of energy to obtain the rest mass of the neutron: \(m_n = (939.45 \pm 0.06)\ \text{MeV}\).
+								</p>
+								<p>
+									<i>
+										This experiment was conducted by me as part of a year-long Experimental Physics course offered by The University of Chicago. 
+										All equipment used for this experiment belongs to the Physics Department.
+									</i>
+								</p>
+								
+							</article>
+
+						<!--============= Projects =============-->
+							<article id="projects">
+								<!--::::::: Orbital Elements :::::::-->
+								<h2 class="major">Orbital Elements</h2>
+								<p>If I told you there is a satellite out in space, and that I know its precise location and velocity 
+									at a given moment in time, would you be able to tell me where that satellite is going to be in the 
+									future? Let's say that the satellite is exactly 6000 km above your head right now, going in any 
+									direction you want at 6 km/s, and that is all the information you have, is there a way for you 
+									to get that satellite's exact path? Yes there is.</p>
+								<span class="image main"><img src="images/orbital_elements.png" alt="" /></span>
+								<p>
+									What you see above is a picture of a navigable real time 3D animation showing just that. The code 
+									takes two parameters, the position vector of the satellite and the velocity vector of the 
+									satellite, and outputs all of the relevant parameters that uniquely specify its orbit 
+									(also known as the orbital elements). Parameters such as the eccentricity of the orbit, its 
+									inclination, semi-major axis, and others. It also displays a neat 3D animation of what the orbit 
+									looks like. The code runs in any browser using the GlowScript VPython API, and you can see it for yourself here.
+								</p>
+								<div id="wrapperforbutton">
+                                    <ul class="actions">
+                                        <li><a href="https://www.glowscript.org/#/user/FabFerro/folder/Public/program/WEBSITE-OE-1" align="center" class="button primary">RUN</a></li>
+                                        <li><a href="https://www.glowscript.org/#/user/FabFerro/folder/Public/program/WEBSITE-OE-1/edit" class="button">Code</a></li>
+                                    </ul>
+                                </div>
+								<p>
+									The reason I wrote this code was to help me and other students visualize what real orbits really 
+									look like. All so often we see orbits displayed in a 2D plane that it is easy to forget that 
+									real orbits are tridimensional. And so when we start talking about things like the argument of 
+									periapsis or the longitude of the ascending node, students tend to be confused. Another motivation 
+									behind this code was to have a convenient way to compute the orbit of a satellite from a single 
+									observation of its position and velocity.
+								</p>
+							</article>
+
+						<!--============= Contact =============-->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright"> Fabrizio Melges Ferro</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
