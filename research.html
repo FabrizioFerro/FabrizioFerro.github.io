@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Research - Fabrizio</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="wave.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="wave.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="wave.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  	</script>
+
+</head>
+
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+        <!-- # SITE HEADER
+        ================================================== -->
+        <header class="s-header">
+
+            <div class="row s-header__inner width-sixteen-col">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.svg" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+    
+                    <ul class="s-header__menu-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="journal.html">Journal</a></li>
+                        <li><a href="files/fabrizio_cv.pdf">CV</a></li>
+                    </ul> <!-- s-header__menu-links -->
+    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+
+        </header> <!-- end s-header -->
+
+        <!-- # site main content
+        ================================================== -->
+        <section id="content" class="s-content">
+
+            <section class="s-pageheader pageheader">
+                 <div class="row">
+                     <div class="column xl-12">
+                         <h1 class="page-title">
+                             Research
+                         </h1>
+                         
+                     </div>
+                 </div>
+            </section> <!-- end pageheader --> 
+
+            <section class="s-pagecontent pagecontent">
+
+                <div class="row width-narrower pagemain">
+                    <!--::::::: Drop :::::::-->
+                    <h1>Drop Pinch-off Dynamics</h1>
+
+                    <img src="images/drop.GIF" alt="drop" class="center" style="--center-width: 103%;">
+
+                    <p>If you are ever out in the rain you may notice that water has this tendency of forming drops.
+                        The water from the rain itself comes in drops, and so does the water that falls from the leaves
+                        of a tree or the water that drips from the rooftop. This type of behavior, as a matter of fact,
+                        is not limited to water and occurs with all kinds of fluids. But why? Why does a falling stream
+                        of liquid break up into droplets and what does it look like?</p>
+                    
+                    <p>
+                        The video above is an example of a pinch-off process for pure water falling through a circular nozzle.
+                         I recorded this event with a high speed camera at 5899.71 fps, so everything in the video above took 
+                         place within 50 ms. My first time seeing this I was completely delighted. It is incredible that a phenomenon
+                         like this takes place around us all the time in our day to day life without being noticed. But what is the 
+                         physics behind all that? Well, we have gravity trying to accelerate the fluid down, surface tension doing its 
+                         best to keep the fluid together and minimize its surface area, and viscosity resisting any deformation to the fluid. 
+                         And it is this tendency of surface tension to minimize the surface area of the fluid while conserving its 
+                         volume that eventually leads to the pinch-off.
+                    </p>
+
+                    <img src="images/drop_fit1.png" alt="drop" class="center" style="--center-width: 100%; --center-max-width: 700px;">
+
+                    <p>
+                        In order to investigate the evolution of the drop with time, I used ImageJ to measure the minimum neck radius of 
+                        the drop at different times from pinch-off. The result is shown in the log-log plot above. As it turns out, 
+                        the minimum neck radius of the drop follows a power law with time. The fit is not perfect though, and that 
+                        is because there is one power law in the earlier stage of the drop formation when surface tension dominates, 
+                        and another power law in the later stages when viscosity dominates and the drop is about to pinch-off.
+                    </p>
+
+                    <img src="images/drop_rep.png" alt="drop" class="center" style="--center-width: 100%;">
+
+                    <p>
+                        What is most remarkable about the drop pinch-off dynamics is how repeatable it is. I compared the whole process 
+                        frame-by-frame for six different drops and they look indistinguishable. The picture above shows one of my 
+                        favorite patterns for six different drops of pure water. All of them were taken exactly 36 frames, or 6.1 ms, 
+                        from the pinch-off.
+                    </p>
+
+                    <p>
+                        <i>
+                            This experiment was conducted by me as part of a year-long Experimental Physics course offered by The University of Chicago. 
+                            All equipment used for this experiment belongs to the Physics Department.
+                        </i>
+                    </p>
+
+                    <!--::::::: Neutron :::::::-->
+                    <h1>Mass of the Neutron</h1>
+                    <p>
+                        The mass of charged fundamental particles, such as protons and electrons, can be measured by sending them 
+                        through a magnetic field and determining the radius of curvature of their path (this technique is known as 
+                        mass spectrometry). But what if you want to measure the mass of the neutron? They are neutral particles 
+                        and so they don't experience a Lorentz force. If you were to send neutrons through a magnetic field their 
+                        paths wouldn't be affected at all, so mass spectrometry doesn't work for them.
+                        What do we do when things don't go our way? We smash them! In this case we smash neutrons and protons to 
+                        produce deuteron: 
+                        
+                        \[ \text{n} + \text{p} \rightarrow \text{d} + \gamma \] 
+                        
+                        Deuteron is a bound nucleus with one proton, one neutron, and a net charge of +1. Its mass can therefore 
+                        be obtained through mass spectrometry. The idea of this experiment is then to measure the energy of the 
+                        photon in the reaction above to obtain the mass of the neutron by conservation of energy. Our detection 
+                        system consisted of a single NaI+PMT connected to a pulse-height analyzer, and our source of neutrons 
+                        was a neutron howitzer.
+                    </p>
+
+                    <img src="images/neutron_fit.png" alt="drop" class="center" style="--center-width: 100%; --center-max-width: 700px;">
+
+                    <p>
+                        By intelligently choosing what materials to shield the detector with, we were able to isolate the capture 
+                        gamma peak, which we measured to be centered at \( E_\gamma = (2.11\pm 0.06)\ \text{MeV} \). From this 
+                        result, we can use conservation of energy to obtain the rest mass of the neutron: \(m_n = (939.45 \pm 0.06)\ \text{MeV}\).
+                    </p>
+                    <p>
+                        <i>
+                            This experiment was conducted by me as part of a year-long Experimental Physics course offered by The University of Chicago. 
+                            All equipment used for this experiment belongs to the Physics Department.
+                        </i>
+                    </p>
+
+                    <!--::::::: AGN :::::::-->
+                    <h1>Exploring Active Galactic Nuclei Feedback with Survey Science</h1>
+                    <p>
+                        How does the AGN feedback effect change the shape of the total matter distribution in galaxies and 
+                        galaxy clusters? So far, this has been studied using hydrodynamical simulations. However, all the 
+                        hydrodynamical simulations tend to disagree with each other and none of them agree well with data, 
+                        so we want to investigate this directly using data.
+                    </p>
+                    <img src="images/agn.png" alt="drop" class="center" style="--center-width: 100%; --center-max-width: 700px;">
+                    <p>
+                        To understand the impact of this AGN feedback effect, we must first understand where they are located. 
+                        One question we have is how often do we find AGNs in a cluster or 
+                        galaxy sample that we are interested in? The problem here is that galaxy cluster catalogs are usually 
+                        generated avoiding the locations of AGNs so we need to look at optical galaxy samples. The goal is 
+                        then to determine what the probability is in finding AGNs in such environments.
+                    </p>
+                    <img src="images/corr.png" alt="drop" class="center" style="--center-width: 100%; --center-max-width: 700px;">
+                    <p>
+                        One of the ways I analyzed the distribution of AGNs in relation to optical clusters was through angular 
+                        correlation functions, which is a convenient method to quantify the clustering of points in the sky.
+                        Positive values of the correlation function indicate clustering of points at that scale, and negative 
+                        values indicate avoidance. The figure above shows the angular correlation function between redMaPPer 
+                        galaxy clusters and AT20G AGNs. The variance was estimated using jackknife resampling.
+                    </p>
+                    <p>
+                        <i>
+                            I acknowledge the use of the following data catalogs: redMaPPer Y1A1, AT20G, SPT-SZ 2500d, and Planck 143GHz
+                        </i>
+                    </p>
+
+                
+                </div> <!-- end pagemain -->
+
+            </section> <!-- pagecontent -->
+            
+        </section> <!-- s-content-->
+
+
+<!-- ================================================================= -->
+<!--                          SITE FOOTER                              -->
+<!-- ================================================================= -->
+
+        <footer class="s-footer">
+            <div class="row s-footer__content">               
+                <div class="column">
+                    <h3>Site Links</h3>
+                    <ul class="link-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="journal.html">Journal</a></li>
+                        <li><a href="files/fabrizio_cv.pdf">CV</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <p>
+                        “The fact that we live at the bottom of a deep gravity well, 
+                        on the surface of a gas covered planet going around a nuclear 
+                        fireball 90 million miles away and think this to be normal is 
+                        obviously some indication of how skewed our perspective tends to be.”
+                        <br>
+                        <i> — Douglas Adams</i>
+                    </p>
+                </div>
+            </div>    
+            
+            <div class="row s-footer__bottom">
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>Fabrizio Melges Ferro</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                    </p>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                    </a>
+                </div> <!-- end ss-go-top -->
+
+            </div>
+            
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>

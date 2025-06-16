@@ -1,544 +1,394 @@
-<!DOCTYPE HTML>
-<!--
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Fabrizio Melges Ferro</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  		</script>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en" class="no-js" >
 
-		<!--============= Wrapper =============-->
-			<div id="wrapper">
 
-				<!--============= Header =============-->
-					<header id="header">
-						<div class="logo">
-							<img src="images/profile.jpg" alt="Profile Picture">
-						</div>
-						<div class="content">
-							<div class="inner">
-								<h1>Fabrizio Melges Ferro</h1>
-							</div>
-						</div>
-						<nav>
-							<ul>
-								<li><a href="#about">about</a></li>
-								<li><a href="#research">Research</a></li>
-								<li><a href="#projects">Projects</a></li>
-								<li><a href="files/fabrizio_cv.pdf">CV</a></li>
-								<!--<li><a href="#elements">Elements</a></li>-->
-							</ul>
-						</nav>
-					</header>
+<!-- ================================================================= -->
+<!--                              HEAD                                 -->
+<!-- ================================================================= -->
 
-				<!--============= Main =============-->
-					<div id="main">
+<head>
 
-						<!--============= About =============-->
-							<article id="about">
-								<h2 class="major">About</h2>
-								<p>
-									Hi! I am a senior at The University of Chicago pursuing a B.S. in Physics and Mathematics. I am originally 
-									from a small town in Brazil called Mairiporã, which means beautiful water of Maíra in Tupi.
-								</p>
-									
-								<h2 class="major">My Photos</h2>
-								<span class="image main"><img src="images/stingray_br.jpg" alt="" /></span>
-								<span class="image main"><img src="images/mullet.jpg" alt="" /></span>
-								<span class="image main"><img src="images/starfish.jpg" alt="" /></span>
-								<span class="image main"><img src="images/serra.jpg" alt="" /></span>
-								<span class="image main"><img src="images/marsmoon.jpg" alt="" /></span>
-								<span class="image main"><img src="images/saturn.jpg" alt="" /></span>
-								<span class="image main"><img src="images/omega_centauri.jpg" alt="" /></span>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fabrizio</title>
 
-							</article>
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
 
-						<!--============= Research =============-->
-							<article id="research">
-								<!--::::::: Drop :::::::-->
-								<h2 class="major">Drop Pinch-off Dynamics</h2>
-								<span class="image main"><img src="images/drop.GIF" alt="" /></span>
-								<p>If you are ever out in the rain you may notice that water has this tendency of forming drops.
-									The water from the rain itself comes in drops, and so does the water that falls from the leaves
-									of a tree or the water that drips from the rooftop. This type of behavior, as a matter of fact,
-									is not limited to water and occurs with all kinds of fluids. But why? Why does a falling stream
-									of liquid break up into droplets and what does it look like?</p>
-								
-								<p>
-									The video above is an example of a pinch-off process for pure water falling through a circular nozzle.
-									 I recorded this event with a high speed camera at 5899.71 fps, so everything in the video above took 
-									 place within 50 ms. My first time seeing this I was completely delighted. It is incredible that a phenomenon
-									 like this takes place around us all the time in our day to day life without being noticed. But what is the 
-									 physics behind all that? Well, we have gravity trying to accelerate the fluid down, surface tension doing its 
-									 best to keep the fluid together and minimize its surface area, and viscosity resisting any deformation to the fluid. 
-									 And it is this tendency of surface tension to minimize the surface area of the fluid while conserving its 
-									 volume that eventually leads to the pinch-off.
-								</p>
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
 
-								<span class="image main">
-                                    <img src="images/drop_fit1.png">
-                                </span>
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="wave.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="wave.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="wave.png">
+    <link rel="manifest" href="site.webmanifest">
 
-								<p>
-									In order to investigate the evolution of the drop with time, I used ImageJ to measure the minimum neck radius of 
-									the drop at different times from pinch-off. The result is shown in the log-log plot above. As it turns out, 
-									the minimum neck radius of the drop follows a power law with time. The fit is not perfect though, and that 
-									is because there is one power law in the earlier stage of the drop formation when surface tension dominates, 
-									and another power law in the later stages when viscosity dominates and the drop is about to pinch-off.
-								</p>
+</head>
 
-								<span class="image main"><img src="images/drop_rep.png" alt="" /></span>
 
-								<p>
-									What is most remarkable about the drop pinch-off dynamics is how repeatable it is. I compared the whole process 
-									frame-by-frame for six different drops and they look indistinguishable. The picture above shows one of my 
-									favorite patterns for six different drops of pure water. All of them were taken exactly 36 frames, or 6.1 ms, 
-									from the pinch-off.
-								</p>
-								<p>
-									<i>
-										This experiment was conducted by me as part of a year-long Experimental Physics course offered by The University of Chicago. 
-										All equipment used for this experiment belongs to the Physics Department.
-									</i>
-								</p>
+<!-- ================================================================= -->
+<!--                              BODY                                 -->
+<!-- ================================================================= -->
 
-								<!--::::::: Neutron :::::::-->
-								<h2 class="major">Mass of the Neutron</h2>
-								<p>
-									The mass of charged fundamental particles, such as protons and electrons, can be measured by sending them 
-									through a magnetic field and determining the radius of curvature of their path (this technique is known as 
-									mass spectrometry). But what if you want to measure the mass of the neutron? They are neutral particles 
-									and so they don't experience a Lorentz force. If you were to send neutrons through a magnetic field their 
-									paths wouldn't be affected at all, so mass spectrometry doesn't work for them.
-									What do we do when things don't go our way? We smash them! In this case we smash neutrons and protons to 
-									produce deuteron: 
-									
-									\[ \text{n} + \text{p} \rightarrow \text{d} + \gamma \] 
-									
-									Deuteron is a bound nucleus with one proton, one neutron, and a net charge of +1. Its mass can therefore 
-									be obtained through mass spectrometry. The idea of this experiment is then to measure the energy of the 
-									photon in the reaction above to obtain the mass of the neutron by conservation of energy. Our detection 
-									system consisted of a single NaI+PMT connected to a pulse-height analyzer, and our source of neutrons 
-									was a neutron howitzer.
-								</p>
-								<span class="image main"><img src="images/neutron_fit.png" alt="" /></span>
-								<p>
-									By intelligently choosing what materials to shield the detector with, we were able to isolate the capture 
-									gamma peak, which we measured to be centered at \( E_\gamma = (2.11\pm 0.06)\ \text{MeV} \). From this 
-									result, we can use conservation of energy to obtain the rest mass of the neutron: \(m_n = (939.45 \pm 0.06)\ \text{MeV}\).
-								</p>
-								<p>
-									<i>
-										This experiment was conducted by me as part of a year-long Experimental Physics course offered by The University of Chicago. 
-										All equipment used for this experiment belongs to the Physics Department.
-									</i>
-								</p>
+<body id="top">
 
-								<!--::::::: AGN :::::::-->
-								<h2 class="major">Exploring Active Galactic Nuclei Feedback with Survey Science</h2>
-								<p>
-									How does the AGN feedback effect change the shape of the total matter distribution in galaxies and 
-									galaxy clusters? So far, this has been studied using hydrodynamical simulations. However, all the 
-									hydrodynamical simulations tend to disagree with each other and none of them agree well with data, 
-									so we want to investigate this directly using data.
-								</p>
-								<span class="image main"><img src="images/agn.png" alt="" /></span>
-								<p>
-									To understand the impact of this AGN feedback effect, we must first understand where they are located. 
-									I worked with Ph.D. Yuuki Omori under the supervision of  Professor Chihway Chang to explore their 
-									distribution in the universe.  One question we have is how often do we find AGNs in a cluster or 
-									galaxy sample that we are interested in? The problem here is that galaxy cluster catalogs are usually 
-									generated avoiding the locations of AGNs so we need to look at optical galaxy samples. The goal is 
-									then to determine what the probability is in finding AGNs in such environments.
-								</p>
-								<span class="image main"><img src="images/corr.png" alt="" /></span>
-								<p>
-									One of the ways I analyzed the distribution of AGNs in relation to optical clusters was through angular 
-									correlation functions, which is a convenient method to quantify the clustering of points in the sky.
-									Positive values of the correlation function indicate clustering of points at that scale, and negative 
-									values indicate avoidance. The figure above shows the angular correlation function between redMaPPer 
-									galaxy clusters and AT20G AGNs. The variance was estimated using jackknife resampling.
-								</p>
-								<p>
-									<i>
-										I acknowledge the use of the following data catalogs: redMaPPer Y1A1, AT20G, SPT-SZ 2500d, and Planck 143GHz
-									</i>
-								</p>
+    
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
 
-							</article>
 
-						<!--============= Projects =============-->
-							<article id="projects">
-								<!--::::::: Orbital Elements :::::::-->
-								<h2 class="major">Orbital Elements</h2>
-								<p>If I told you there is a satellite out in space, and that I know its precise location and velocity 
-									at a given moment in time, would you be able to tell me where that satellite is going to be in the 
-									future? Let's say that the satellite is exactly 6000 km above your head right now, going in any 
-									direction you want at 6 km/s, and that is all the information you have, is there a way for you 
-									to get that satellite's exact path? Yes there is.</p>
-								<span class="image main"><img src="images/orbital_elements.png" alt="" /></span>
-								<p>
-									What you see above is a picture of a navigable real time 3D animation showing just that. The code 
-									takes two parameters, the position vector of the satellite and the velocity vector of the 
-									satellite, and outputs all of the relevant parameters that uniquely specify its orbit 
-									(also known as the orbital elements). Parameters such as the eccentricity of the orbit, its 
-									inclination, semi-major axis, and others. It also displays a neat 3D animation of what the orbit 
-									looks like. The code runs in any browser using the GlowScript VPython API, and you can see it for yourself here.
-								</p>
-								<div id="wrapperforbutton">
-                                    <ul class="actions">
-                                        <li><a href="https://www.glowscript.org/#/user/FabFerro/folder/Public/program/WEBSITE-OE-1" align="center" class="button primary">RUN</a></li>
-                                        <li><a href="https://www.glowscript.org/#/user/FabFerro/folder/Public/program/WEBSITE-OE-1/edit" class="button">Code</a></li>
-                                    </ul>
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap ss-home">
+
+
+<!-- ================================================================= -->
+<!--                            SITE HEADER                            -->
+<!-- ================================================================= -->
+
+        <header class="s-header">
+
+            <div class="row s-header__inner width-sixteen-col">
+
+                <div class="s-header__block">
+                    <div class="s-header__logo">
+                        <a class="logo" href="index.html">
+                            <img src="images/logo.svg" alt="Homepage">
+                        </a>
+                    </div>
+
+                    <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+                </div> <!-- end s-header__block -->
+
+                <nav class="s-header__nav">
+    
+                    <ul class="s-header__menu-links">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="journal.html">Journal</a></li>
+                        <li><a href="files/fabrizio_cv.pdf">CV</a></li>
+                    </ul> <!-- s-header__menu-links -->
+    
+                </nav> <!-- end s-header__nav -->
+
+            </div> <!-- end s-header__inner -->
+
+        </header> <!-- end s-header -->
+
+
+<!-- ================================================================= -->
+<!--                         SITE MAIN CONTENT                         -->
+<!-- ================================================================= -->
+
+        <section id="content" class="s-content">
+            
+            <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <!-- ============================ INTRO ============================ -->
+             <!-- ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+            <section id="intro" class="s-intro">
+
+                <div class="row s-intro__content width-sixteen-col">
+
+                    <div class="column lg-12 s-intro__content-inner grid-block">
+                        
+                        <div class="s-intro__content-text">
+                            <div class="s-intro__content-pretitle text-pretitle">Fabrizio Melges Ferro</div>
+                            <h1 class="s-intro__content-title">
+                                Physics and Mathematics
+                            </h1>
+                        </div> <!-- s-intro__content-text -->
+
+                        <div class="s-intro__content-media"> 
+                            <div class="s-intro__content-media-inner">                               
+                                <img src="images/fab.jpg" srcset="images/fab.jpg 1x, images/fab.jpg 2x" alt="">
+                                <div class="lines">                               
+                                    <span></span>                                  
                                 </div>
-								<p>
-									The reason I wrote this code was to help me and other students visualize what real orbits really 
-									look like. All so often we see orbits displayed in a 2D plane that it is easy to forget that 
-									real orbits are tridimensional. And so when we start talking about things like the argument of 
-									periapsis or the longitude of the ascending node, students tend to be confused. Another motivation 
-									behind this code was to have a convenient way to compute the orbit of a satellite from a single 
-									observation of its position and velocity.
-								</p>
-								<!--::::::: PIPA :::::::-->
-								<h2 class="major">Planetarium with Interstellar Positional Astronomy (PIPA)</h2>
-								<p>
-									Have you ever wondered what the night sky from other stars would look like? And what does the Sun look like
-									from another star? I created a program that does just that. <b>PIPA (Planetarium with Interstellar Positional Astronomy)</b> 
-									is a free open source planetarium program based entirely on Python3. It uses the astrometric data from the <b>High 
-									Precision PARallax COllecting Satellite
-									(Hipparcos)</b> mission to show in 3D what the sky from other stars would look like.
-								</p>
-								<span class="image main"><img src="images/alfcenA.png" alt="" /></span>
-								<p>
-									The image above is a portion of the sky as seen from Alpha Centauri A (HIP 71683). Our star, the Sun, is
-									shown in green for reference.
-								</p>
-								<span class="image main"><img src="images/barnard.png" alt="" /></span>
-								<p>
-									From Barnard's Star (HIP 87937) the Sun is in Orion. Sirius, shown in light blue, is shifted 
-									closer to Orion but still belongs to Canis Major. Betelgeuse is shown in red and Rigel is shown in blue.
-								</p>
-								<span class="image main"><img src="images/maia.png" alt="" /></span>
-								<p>
-									From Maia (HIP 17573), the fourth-brightest star in the Pleiades open star cluster (Messier 45), the sky is just 
-									insane. Orion is gone, and the seven sisters are seriously bright.
-								</p>
-								<div id="wrapperforbutton">
-                                    <ul class="actions">
-                                        <li><a href="https://github.com/FabrizioFerro/pipa" class="button">Code</a></li>
-                                    </ul>
+                            </div>
+                        </div> <!-- s-intro__content-media -->                      
+
+                        <div class="s-intro__scroll-down">
+                            <a href="#about" class="smoothscroll">
+                                <div class="scroll-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#97b34a" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="7 13 12 18 17 13"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
                                 </div>
-								<p>
-									You can click the button above to access the PIPA project repository. The python code is 
-									available there, together with detailed instructions on how to properly install and run the program.
-									This project made use of data from the <b>High Precision PARallax COllecting Satellite (Hipparcos)</b> mission.
-									It specifically utilized the data published in: ESA, 1997, <i>The Hipparcos and Tycho Catalogues</i>, ESA SP-1200.
-									For further information on the Hipparcos mission and data, visit <a href="https://www.cosmos.esa.int/web/hipparcos/catalogues">ESA's Hipparcos page</a>.
-								</p>
-				
-							</article>
+                            </a>
+                        </div> <!-- s-intro__scroll-down -->
+                        
+                    </div> <!-- s-intro__content-inner -->
 
-						<!--============= Contact =============-->
-							<article id="contact">
-								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
-									</ul>
-								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</article>
+                </div> <!-- s-intro__content -->
 
-						<!-- Elements -->
-							<article id="elements">
-								<h2 class="major">Elements</h2>
+            </section> <!-- end s-intro -->
 
-								<section>
-									<h3 class="major">Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<h5>Heading Level 5</h5>
-									<h6>Heading Level 6</h6>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
+            <!-- ============================ ABOUT ============================ -->
+            <section id="about" class="s-about target-section">
 
-while (!deck.isInOrder()) {
-    print 'Iteration ' + i;
-    deck.shuffle();
-    i++;
-}
+                <div class="row s-about__content width-sixteen-col">
+                    <div class="column grid-block grid-section-split">
 
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
+                        <div class="section-header grid-section-split__header">
+                            <div class="text-pretitle">About</div>                           
+                            <h2 class="text-display-title">
+                            Hi, I'm Fabrizio.
+                            </h2>      
+                            <p class="lead">
+                                Hi! My name is Fabrizio. I am originally from a small town in Brazil called Mairiporã,
+                                which means beautiful water of Maíra in Tupi. I have a B.S. in Physics and Mathematics from The University of Chicago.
+                            </p>       
 
-								<section>
-									<h3 class="major">Lists</h3>
+                            <img src="images/brazil.png" alt="brazil" class="center" style="--center-width: 90%; --center-max-width: 400px;">
 
-									<h4>Unordered</h4>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+                            <a href="about.html" class="btn btn--stroke u-fullwidth" style="--color-btn-stroke: rgb(230, 250, 254);
+                            --color-btn-stroke-text: rgb(230, 250, 254); --color-btn-stroke-hover-text: black;
+                            --color-btn-stroke-hover: rgb(230, 250, 254); --center-max-width: 500px; margin-top: 40px;">More About Me</a>
 
-									<h4>Alternate</h4>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
+                        </div> <!-- end section-header -->
 
-									<h4>Ordered</h4>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h4>Icons</h4>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-									</ul>
+                        <div class="s-about__content-main grid-section-split__primary">
 
-									<h4>Actions</h4>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions stacked">
-										<li><a href="#" class="button primary">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</section>
+                            <p class="attention-getter">
+                            Growing up at the heart of the Atlantic Florest meant living around thousands of 
+                            plant and animal species, but it also meant being far from modern infrastructure and services. My house didn't have access to WI-FI
+                            untill 2018, when I was 15. I remember 2018 well because it was the year my high-school physics teacher gave me a single volume 
+                            physics textbook, It was the year I got my first computer, and it was the year that I participated in my first astronomy olympiad.
+                            </p>
 
-								<section>
-									<h3 class="major">Table</h3>
-									<h4>Default</h4>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
+                            <img src="images/serra.jpg" alt="drop" class="center" style="--center-width: 90%; --center-max-width: 400px;">
 
-									<h4>Alternate</h4>
-									<div class="table-wrapper">
-										<table class="alt">
-											<thead>
-												<tr>
-													<th>Name</th>
-													<th>Description</th>
-													<th>Price</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>Item One</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Two</td>
-													<td>Vis ac commodo adipiscing arcu aliquet.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Three</td>
-													<td> Morbi faucibus arcu accumsan lorem.</td>
-													<td>29.99</td>
-												</tr>
-												<tr>
-													<td>Item Four</td>
-													<td>Vitae integer tempus condimentum.</td>
-													<td>19.99</td>
-												</tr>
-												<tr>
-													<td>Item Five</td>
-													<td>Ante turpis integer aliquet porttitor.</td>
-													<td>29.99</td>
-												</tr>
-											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
-										</table>
-									</div>
-								</section>
+                            <p class="attention-getter">
+                                During the two years that followed, I had the privilege to participate in two international astronomy olympiads. 
+                                In 2021, I was accepted to The University of Chicago, now my alma mater.
+                            </p>
 
-								<section>
-									<h3 class="major">Buttons</h3>
-									<ul class="actions">
-										<li><a href="#" class="button primary">Primary</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button">Default</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-									<ul class="actions">
-										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
-										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
-									</ul>
-									<ul class="actions">
-										<li><span class="button primary disabled">Disabled</span></li>
-										<li><span class="button disabled">Disabled</span></li>
-									</ul>
-								</section>
+                        </div> <!-- end s-about__content-main -->
+                    
+                    </div> <!-- content-inner -->
+                </div>
+                
+            </section> <!-- end s-about -->
 
-								<section>
-									<h3 class="major">Form</h3>
-									<form method="post" action="#">
-										<div class="fields">
-											<div class="field half">
-												<label for="demo-name">Name</label>
-												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-											</div>
-											<div class="field half">
-												<label for="demo-email">Email</label>
-												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-											</div>
-											<div class="field">
-												<label for="demo-category">Category</label>
-												<select name="demo-category" id="demo-category">
-													<option value="">-</option>
-													<option value="1">Manufacturing</option>
-													<option value="1">Shipping</option>
-													<option value="1">Administration</option>
-													<option value="1">Human Resources</option>
-												</select>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-												<label for="demo-priority-low">Low</label>
-											</div>
-											<div class="field half">
-												<input type="radio" id="demo-priority-high" name="demo-priority">
-												<label for="demo-priority-high">High</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-copy" name="demo-copy">
-												<label for="demo-copy">Email me a copy</label>
-											</div>
-											<div class="field half">
-												<input type="checkbox" id="demo-human" name="demo-human" checked>
-												<label for="demo-human">Not a robot</label>
-											</div>
-											<div class="field">
-												<label for="demo-message">Message</label>
-												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</form>
-								</section>
+            <!-- ============================ RESEARCH ============================ -->
+            <section id="research" class="s-expertise">
 
-							</article>
+                <div class="column width-narrower pagemain">
+                    
 
-					</div>
+                        
+                            <div class="text-pretitle">Research</div>                           
+                            <h2 class="text-display-title">My Areas of Interest and Experience.</h2>     
+                            
+                            <p class="lead">
+                            My fundamental interests are in general relativity and mathematical physics. During my undergraduate career, however,
+                            I've explored a wide range of different fields.
+                            </p>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<p class="copyright"> Fabrizio Melges Ferro</p>
-					</footer>
+                            <a class="btn btn--stroke" href="research.html" style="--center-max-width: 300px;">View All</a>
 
-			</div>
+                            <div class="text-pretitle">01.</div> 
+                            <h3>Fluid Dynamics</h3>
 
-		<!-- BG -->
-			<div id="bg"></div>
+                            <img src="images/drop.GIF" alt="drop" class="center" style="--center-width: 100%;">
+                            <p>
+                            If you are ever out in the rain you may notice that water has this tendency of forming drops.
+                            The water from the rain itself comes in drops, and so does the water that falls from the leaves
+                            of a tree or the water that drips from the rooftop. This type of behavior, as a matter of fact,
+                            is not limited to water and occurs with all kinds of fluids. But why? Why does a falling stream
+                            of liquid break up into droplets and what does it look like?
+                            </p>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+                            <div class="text-pretitle">02.</div> 
+                            <h3 class="list-items__item-title">Nuclear Physics</h3>
+                            <img src="images/neutron_fit.png" alt="drop" class="center" style="--center-width: 100%; --center-max-width: 700px;">
+                            <p>
+                            The mass of charged fundamental particles, such as protons and electrons, can be measured by sending them 
+                            through a magnetic field and determining the radius of curvature of their path (this technique is known as 
+                            mass spectrometry). But what if you want to measure the mass of the neutron? They are neutral particles 
+                            and so they don't experience a Lorentz force. If you were to send neutrons through a magnetic field their 
+                            paths wouldn't be affected at all, so mass spectrometry doesn't work for them.
+                            What do we do when things don't go our way? We smash them! In this case we smash neutrons and protons to 
+                            produce deuteron.
+                            </p>
 
-	</body>
+                            <div class="text-pretitle">03.</div> 
+                            <h3 class="list-items__item-title">Observational Cosmology</h3>
+
+                            <p>
+                            <img src="images/agn.png" alt="drop" class="center" style="--center-width: 100%; --center-max-width: 700px;">
+                            How does the AGN feedback effect change the shape of the total matter distribution in galaxies and 
+                            galaxy clusters? To understand the impact of this AGN feedback effect, we must first understand where they are located. 
+                            One question we have is how often do we find AGNs in a cluster or galaxy sample that we are interested in?
+                            </p>
+                        
+
+                    
+                </div> <!-- end s-expertise__content -->
+
+            </section> <!-- end s-expertise -->
+
+            <!-- ============================ PROJECTS ============================ -->
+            <section id="projects" class="s-clients">          
+
+                <div class="column width-narrower pagemain">
+                    
+                    <div class="text-pretitle">Projects</div>                           
+                    <h2 class="text-display-title">
+                    Astronomy Education.
+                    </h2>    
+                    <p class="lead">
+                        I'm continuously developing educational astronomy resources. I like to experiment with different forms of exposition
+                        and visualization.
+                    </p>
+
+                    <a class="btn btn--stroke" href="projects.html" style="margin-bottom: 30px; max-width: 300px;">View All</a>
+
+                    <h3>Planetarium with Interstellar Positional Astronomy (PIPA)</h3>
+
+                    <p>
+                        Have you ever wondered what the night sky from other stars would look like? And what does the Sun look like
+                        from another star? I created a program that does just that. <b>PIPA (Planetarium with Interstellar Positional Astronomy)</b> 
+                        is a free open source planetarium program based entirely on Python3. It uses the astrometric data from the <b>High 
+                        Precision PARallax COllecting Satellite
+                        (Hipparcos)</b> mission to show in 3D what the sky from other stars would look like.
+                    </p>
+
+                    <img src="images/barnard.png" alt="drop" class="center" style="--center-width: 100%; --center-max-width: 700px;">
+
+                    <p>
+                        From Barnard's Star (HIP 87937) the Sun, shown in green, is in Orion. Sirius, shown in light blue, is shifted 
+                        closer to Orion but still belongs to Canis Major. Betelgeuse is shown in red and Rigel is shown in blue.
+                    </p>
+
+                    <h3>Orbital Elements</h3>
+
+                    <p>
+                        I wrote this code to help me and other students visualize what real orbits really 
+                        look like. All so often we see orbits displayed in a 2D plane that it is easy to forget that 
+                        real orbits are tridimensional. And so when we start talking about things like the argument of 
+                        periapsis or the longitude of the ascending node, students tend to be confused. Another motivation 
+                        behind this code was to have a convenient way to compute the orbit of a satellite from a single 
+                        observation of its position and velocity.
+                    </p>
+
+                    <img src="images/orbital_elements.png" alt="drop" class="center" style="--center-width: 100%; --center-max-width: 700px;">
+
+                </div> <!-- end row -->
+
+            </section> <!-- end s-clients -->            
+
+        </section> <!-- s-content-->
+
+        <!-- ============================ JOURNAL ============================ -->
+        <section id="journal" class="s-journal">
+
+            <div class="row s-journal__content width-sixteen-col">
+                <div class="column xl-12 grid-block">
+
+                    <div class="grid-full section-header text-center">
+                        <div class="text-pretitle">Journal</div>                           
+                        <h2 class="text-display-title">
+                        Recent Articles
+                        </h2>  
+                    </div> <!-- end section-header --> 
+
+                    <div class="grid-full s-journal__content-main grid-list-items">
+
+                        <div class="grid-list-items__item blog-card">
+                            <div class="blog-card__header">
+                                <div class="blog-card__cat-links">
+                                    <a href="blog.html">Mathematics</a>
+                                </div>
+                                <h3 class="blog-card__title"><a href="single.html">The Uniqueness of The Identity</a></h3>
+                            </div>
+                            <div class="blog-card__text">
+                                <p>
+                                The identity element is unique. One of the first proofs I ever did. Still one of my favorites.
+                                </p>
+                            </div>
+                        </div> <!-- end blog-card -->
+
+                    </div> <!-- end grid-list-items -->
+
+                </div> <!-- end grid-block-->
+            </div> <!-- end s-journal__content -->
+
+        </section> <!-- end s-journal -->
+
+
+<!-- ================================================================= -->
+<!--                          SITE FOOTER                              -->
+<!-- ================================================================= -->
+        <footer class="s-footer">
+            <div class="row s-footer__content">               
+                <div class="column">
+                    <h3>Site Links</h3>
+                    <ul class="link-list">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="journal.html">Journal</a></li>
+                        <li><a href="files/fabrizio_cv.pdf">CV</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <p>
+                        “The fact that we live at the bottom of a deep gravity well, 
+                        on the surface of a gas covered planet going around a nuclear 
+                        fireball 90 million miles away and think this to be normal is 
+                        obviously some indication of how skewed our perspective tends to be.”
+                        <br>
+                        <i> — Douglas Adams</i>
+                    </p>
+                </div>
+            </div>    
+            
+            <div class="row s-footer__bottom">
+
+                <div class="column xl-6 lg-12">
+                    <p class="ss-copyright">
+                        <span>Fabrizio Melges Ferro</span> 
+                        <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
+                    </p>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#ffffff" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">&lt;!--!  Atomicons Free 1.00 by @atisalab License - https://atomicons.com/license/ (Icons: CC BY 4.0) Copyright 2021 Atomicons --&gt;<polyline points="17 11 12 6 7 11"></polyline><line x1="12" y1="18" x2="12" y2="6"></line></svg>
+                    </a>
+                </div> <!-- end ss-go-top -->
+
+            </div>
+            
+        </footer> <!-- end s-footer -->
+
+
+<!-- ================================================================= -->
+<!--                               END                                 -->
+<!-- ================================================================= -->
+ 
+    </div> <!-- end page-wrap -->
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
 </html>
