@@ -104,7 +104,7 @@
    * color-2(#343D35)
    * color-3(#FEF5E4)
    */
-	--color-1: rgb(16, 234, 20);
+	--color-1: rgb(16, 129, 234);
 	--color-2: hsla(127, 8%, 22%, 1);
 	--color-3: rgb(230, 250, 254);
 
@@ -112,7 +112,7 @@
    */
 	--color-1-lightest             : rgb(236, 254, 236);
 	--color-1-lighter              : rgb(107, 245, 160);
-	--color-1-light                : rgb(59, 241, 165);
+	--color-1-light                : rgb(62, 249, 255);
 	--color-1-dark                 : rgb(22, 186, 13);
 	--color-1-darker               : rgb(10, 138, 21);
 	--color-1-darkest              : rgb(3, 48, 11);
